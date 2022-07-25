@@ -112,7 +112,7 @@
   width: 404px;
   border: 1px solid #d3d3d3;
   background-color: var(--white-color);
-  cursor: default;
+  cursor: default;;
 }
 .header__notify-header {
   height: 40px;
@@ -124,7 +124,6 @@
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 40px;
-  cursor: text;
 }
 .header__notify-list {
   padding-left: 0;
