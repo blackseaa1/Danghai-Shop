@@ -437,7 +437,6 @@
 
 .header__cart {
   width: 12%;
-  text-align: center;
 }
 .header__cart-icon{
   color: var(--white-color);
