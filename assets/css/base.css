@@ -20,6 +20,7 @@ html {
   box-sizing: border-box;
 }
 
+/* responsive */
 .grid {
   width: 1200px;
   max-width: 100%;
@@ -33,6 +34,18 @@ html {
 .grid__row {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 -12px;
+}
+
+/* test */
+.grid__column-2 {
+  padding: 0px 12px;
+  width: 16.6667%;
+}
+
+.grid__column-10 {
+  padding: 0px 12px;
+  width: 83.3334%;
 }
 
 /* Animation */

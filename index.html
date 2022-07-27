@@ -104,26 +104,26 @@
               <span class="header__navbar-user-name">Hải Đặng</span>
 
               <ul class="header__navbar-user-menu">
-                  <li class="header__navbar-user-item">
-                      <a href="">Tài khoản của tôi</a>
-                  </li>
-                  <li class="header__navbar-user-item">
-                      <a href="">Địa chỉ của tôi</a>
-                  </li>
-                  <li class="header__navbar-user-item">
-                      <a href="">Đơn mua</a>
-                  </li>
-                  <li class="header__navbar-user-item header__navbar-user-item--separate">
-                      <a href="">Đăng xuất</a>
-                  </li>
+                <li class="header__navbar-user-item">
+                  <a href="">Tài khoản của tôi</a>
+                </li>
+                <li class="header__navbar-user-item">
+                  <a href="">Địa chỉ của tôi</a>
+                </li>
+                <li class="header__navbar-user-item">
+                  <a href="">Đơn mua</a>
+                </li>
+                <li class="header__navbar-user-item header__navbar-user-item--separate">
+                  <a href="">Đăng xuất</a>
+                </li>
               </ul>
-          </li>
+            </li>
           </ul>
         </nav>
         <!-- header with search -->
         <div class="header-with-search">
           <div class="header__logo">
-            <img class="header__logo-img" src="assets/img/pixlr-bg-result.svg" alt="Logo">
+            <a href="/" class="header__logo-link"><img class="header__logo-img" src="assets/img/pixlr-bg-result.svg" alt="Logo"></a>
           </div>
           <div class="header__search">
             <div class="header__search-input-wrap">
@@ -225,7 +225,7 @@
                       </div>
                     </div>
                   </li>
-                  
+
                 </ul>
                 <a href="#" class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</a>
               </div>
@@ -235,7 +235,34 @@
 
       </div>
     </header>
-    <div class="container"></div>
+    <div class="app__container">
+      <div class="grid">
+        <div class="grid__row">
+          <div class="grid__column-2">
+                  <nav class="category">
+          <h3 class="category__heading">
+            <i class="category-item__heading-icon fa fa-list"></i>
+            Danh mục
+          </h3>
+          <ul class="category-list">
+            <li class="category-item category-item--active">
+              <a href="#" class="category-item__link">Trang điểm mặt</a>
+            </li>
+            <li class="category-item">
+              <a href="#" class="category-item__link">Trang điểm mặt</a>
+            </li>
+            <li class="category-item">
+              <a href="#" class="category-item__link">Trang điểm mặt</a>
+            </li>
+          </ul>
+        </nav>
+          </div>
+          <div class="grid__column-10">
+            
+          </div>
+        </div>
+      </div>
+    </div>
     <footer class="footer"></footer>
   </div>
   <!-- modal -->
