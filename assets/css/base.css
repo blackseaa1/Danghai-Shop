@@ -155,8 +155,6 @@ html {
   display: block;
   z-index: 1;
 }
-
-
 .select-input__label {
   font-size: 1.4rem;
   color: var(--text-color) !important;
@@ -168,6 +166,15 @@ html {
   position: relative;
   top: 1px;
   cursor: pointer;
+}
+.select-input__icon::after{
+  position: absolute;
+  content: "";
+  display: block;
+  width: 1885%;
+  height: 32px;
+  top: 10px;
+  right: -11px;
 }
 
 .select-input__list {
