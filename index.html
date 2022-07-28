@@ -261,40 +261,243 @@
           <div class="grid__column-10">
             <div class="home-filter">
               <span class="home-filter__label">Sắp xếp theo</span>
-              <button class="btn">Phổ biến</button>
-              <button class="btn btn--primary">Mới nhất</button>
-              <button class="btn">Bán chạy</button>
+              <button class="home-filter__btn btn">Phổ biến</button>
+              <button class="home-filter__btn btn btn--primary">Mới nhất</button>
+              <button class="home-filter__btn btn">Bán chạy</button>
               <div class="select-input">
                 <span class="select-input__label">Giá</span>
-                <i class="fas fa-angle-down"></i>
+                <i class="select-input__icon fas fa-angle-down"></i>
+                <!-- list option -->
+                <ul class="select-input__list">
+                  <li class="select-inout__item">
+                    <a href="" class="select-input__link">Giá: Thấp đến cao </a>
+                  </li>
+                  <li class="select-inout__item">
+                    <a href="" class="select-input__link">Giá: Cao đến thấp </a>
+                  </li>
+                </ul>
               </div>
               <div class="home-filter__page">
                 <span class="home-filter__page-num">
-                  <span class="home-filter__page-current">1</span>
-                  /
-                  14
+                  <span class="home-filter__page-current">1</span>/14
                 </span>
                 <div class="home-filter__page-control">
-                <i class="fas fa-angle-left"></i>
-                <a href="" class="home-filter__page-btn">
-                <i class="fas fa-angle-right"></i>
-                </a>        
+                  <a href="" class="home-filter__page-btn home-filter__page-btn-disable">
+                    <i class="home-filter__page-icon fas fa-angle-left"></i>
+                  </a>
+                  <a href="" class="home-filter__page-btn">
+                    <i class="home-filter__page-icon fas fa-angle-right"></i>
+                  </a>
                 </div>
+              </div>
+            </div>
+            <div class="home-product">
+              <div class="grid__row">
+                <div class="grid__column-2-4">
+                  <!-- product item -->
+                  <div class="home-product-item">
+                    <div class="home-product-item__img"
+                      style="background-image:url(assets/img/e5e2cec9f07c6980efe129ae388d31f3.jfiep)  ;">
+                      <h4 class="home-product-item__name">Chó Husky Bông Siêu To Khổng Lồ - Gấu Bông Husky - Best Bear
+                        Shop</h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">1.200.000đ</span>
+                        <span class="home-product-item__price-current">999.000đ</span>
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="fas fa-heart"></i><!-- <i class="far fa-heart"></i> -->
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">Kenaki</span>
+                        <sapn class="home-product-item__origin-name">Japan</sapn>
+                      </div>
+                      <div class="home-product-item__favourite">
+                        <i class="fa fas-check"></i>
+                        Yêu thích
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">10%</span>
+                        <span class="home-product-item__sale-off-lable">GIẢM MẠNH</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid__column-2-4">
+                  <!-- product item -->
+                  <div class="home-product-item">
+                    <div class="home-product-item__img"
+                      style="background-image:url(assets/img/e5e2cec9f07c6980efe129ae388d31f3.jfiep)  ;">
+                      <h4 class="home-product-item__name">Chó Husky Bông Siêu To Khổng Lồ - Gấu Bông Husky - Best Bear
+                        Shop</h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">1.200.000đ</span>
+                        <span class="home-product-item__price-current">999.000đ</span>
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="fas fa-heart"></i><!-- <i class="far fa-heart"></i> -->
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">Kenaki</span>
+                        <sapn class="home-product-item__origin-name">Japan</sapn>
+                      </div>
+                      <div class="home-product-item__favourite">
+                        <i class="fa fas-check"></i>
+                        Yêu thích
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">10%</span>
+                        <span class="home-product-item__sale-off-lable">GIẢM MẠNH</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid__column-2-4">
+                  <!-- product item -->
+                  <div class="home-product-item">
+                    <div class="home-product-item__img"
+                      style="background-image:url(assets/img/e5e2cec9f07c6980efe129ae388d31f3.jfiep)  ;">
+                      <h4 class="home-product-item__name">Chó Husky Bông Siêu To Khổng Lồ - Gấu Bông Husky - Best Bear
+                        Shop</h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">1.200.000đ</span>
+                        <span class="home-product-item__price-current">999.000đ</span>
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="fas fa-heart"></i><!-- <i class="far fa-heart"></i> -->
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">Kenaki</span>
+                        <sapn class="home-product-item__origin-name">Japan</sapn>
+                      </div>
+                      <div class="home-product-item__favourite">
+                        <i class="fa fas-check"></i>
+                        Yêu thích
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">10%</span>
+                        <span class="home-product-item__sale-off-lable">GIẢM MẠNH</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid__column-2-4">
+                  <!-- product item -->
+                  <div class="home-product-item">
+                    <div class="home-product-item__img"
+                      style="background-image:url(assets/img/e5e2cec9f07c6980efe129ae388d31f3.jfiep)  ;">
+                      <h4 class="home-product-item__name">Chó Husky Bông Siêu To Khổng Lồ - Gấu Bông Husky - Best Bear
+                        Shop</h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">1.200.000đ</span>
+                        <span class="home-product-item__price-current">999.000đ</span>
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="fas fa-heart"></i><!-- <i class="far fa-heart"></i> -->
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">Kenaki</span>
+                        <sapn class="home-product-item__origin-name">Japan</sapn>
+                      </div>
+                      <div class="home-product-item__favourite">
+                        <i class="fa fas-check"></i>
+                        Yêu thích
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">10%</span>
+                        <span class="home-product-item__sale-off-lable">GIẢM MẠNH</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid__column-2-4">
+                  <!-- product item -->
+                  <div class="home-product-item">
+                    <div class="home-product-item__img"
+                      style="background-image:url(assets/img/e5e2cec9f07c6980efe129ae388d31f3.jfiep)  ;">
+                      <h4 class="home-product-item__name">Chó Husky Bông Siêu To Khổng Lồ - Gấu Bông Husky - Best Bear
+                        Shop</h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">1.200.000đ</span>
+                        <span class="home-product-item__price-current">999.000đ</span>
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="fas fa-heart"></i><!-- <i class="far fa-heart"></i> -->
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">Kenaki</span>
+                        <sapn class="home-product-item__origin-name">Japan</sapn>
+                      </div>
+                      <div class="home-product-item__favourite">
+                        <i class="fa fas-check"></i>
+                        Yêu thích
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent">10%</span>
+                        <span class="home-product-item__sale-off-lable">GIẢM MẠNH</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
         </div>
       </div>
+      <footer class="footer"></footer>
     </div>
-    <footer class="footer"></footer>
-  </div>
-  <!-- modal -->
-  <!-- <div class="modal">
+    <!-- modal -->
+    <!-- <div class="modal">
     <div class="modal__overlay"></div>
     <div class="modal__body"> -->
-  <!-- form login -->
-  <!-- Authen form -->
-  <!-- <div class="authen-form">
+    <!-- form login -->
+    <!-- Authen form -->
+    <!-- <div class="authen-form">
         <div class="auth-form__container">
           <div class="auth-form__header">
             <h3 class="auth-form__heading ">Đăng Kí</h3>
@@ -339,8 +542,8 @@
           </a>
         </div>
       </div> -->
-  <!-- login form -->
-  <!-- <div class="authen-form">
+    <!-- login form -->
+    <!-- <div class="authen-form">
         <div class="auth-form__container">
           <div class="auth-form__header">
             <h3 class="auth-form__heading ">Đăng Nhập</h3>
@@ -381,7 +584,7 @@
           </a>
         </div>
       </div> -->
-  <!-- </div>
+    <!-- </div>
   </div> -->
 </body>
 
