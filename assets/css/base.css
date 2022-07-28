@@ -4,6 +4,7 @@
   --black-color: #000;
   --text-color: #333;
   --boder-color: #dbdbdb;
+  --star-color:#ffce3e;
   --header-height: 120px;
   --navbar-height: 34px;
   --header-with-search-height: calc(var(var(--header-height)) var(--navbar-height))
@@ -34,20 +35,20 @@ html {
 .grid__row {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -12px;
+  margin: 0 -5px;
 }
 
 /* test */
 .grid__column-2 {
-  padding: 0px 12px;
+  padding: 0px 5px;
   width: 16.6667%;
 }
 .grid__column-2-4 {
-  padding: 0px 12px;
+  padding: 0px 5px;
   width: 20%;
 }
 .grid__column-10 {
-  padding: 0px 12px;
+  padding: 0px 5px;
   width: 83.3334%;
 }
 
@@ -152,6 +153,7 @@ html {
 }
 .select-input:hover .select-input__list{
   display: block;
+  z-index: 1;
 }
 
 
