@@ -1263,3 +1263,8 @@ i.home-product-item__like--liked-fill {
   position: relative;
   top: 0px;
 }
+
+.home-product__pagination {
+  margin: 48px 0 32px 0;
+  padding-left: 0;
+}
