@@ -1039,6 +1039,9 @@ home-filter__page-btn-disable .home-filter__page-icon {
   color: #555;
 }
 /* product-item */
+.home-product{
+  margin-bottom: 20px;
+}
 
 .home-product-item {
   display: block;
